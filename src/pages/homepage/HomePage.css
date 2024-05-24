@@ -1,0 +1,19 @@
+.home-page {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #FFF59D;
+    min-height: 100vh;
+  }
+  
+  .home-page img {
+    margin-top: 20px;
+  }
+  
+  .start-test-button {
+    background-color: #FFEB3B;
+    color: #000;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 20px;
+  }
+  
