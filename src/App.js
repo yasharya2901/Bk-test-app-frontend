@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import LoginPage from './pages/loginpage/LoginPage';
+import VerificationPage from './pages/verificationpage/VerificationPage';
+import ProfileSetup from './pages/profilesetup/ProfileSetup';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         </a>
       </header> */}
       <LoginPage />
+      <VerificationPage />
+      <ProfileSetup />
       
     </div>
   );
