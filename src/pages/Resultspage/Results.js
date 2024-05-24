@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drawer, Button, List, ListItem, ListItemText } from '@material-ui/core';
+import { Drawer, Button, List, ListItem, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 function Results() {
