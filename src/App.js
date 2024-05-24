@@ -3,7 +3,7 @@ import './App.css';
 import LoginPage from './pages/loginpage/LoginPage';
 import VerificationPage from './pages/verificationpage/VerificationPage';
 import ProfileSetup from './pages/profilesetup/ProfileSetup';
-import Results from './pages/results/Results';
+// import Results from './pages/results/Results';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TestingApp from './pages/TestPage/TestingApp';
 
@@ -29,6 +29,7 @@ function App() {
         <Route path="/" element={<LoginPage />} />
         <Route path="/verification" element={<VerificationPage />} />
         <Route path="/profileSetup" element={<ProfileSetup />} />
+        <Route path="/Test" element={<TestingApp />} />
       </Routes>
     </Router>
       

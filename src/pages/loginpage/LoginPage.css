@@ -1,40 +1,56 @@
 .om-shanti-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: linear-gradient(to bottom, #ffeb3b, #ffc107);
-    color: #333;
-  }
-  
-  .om-shanti-container h1 {
-    margin-bottom: 20px;
-  }
-  
-  .om-shanti-container input {
-    width: 80%;
-    max-width: 300px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .om-shanti-container button {
-    width: 80%;
-    max-width: 300px;
-    padding: 10px;
-    background-color: #ffeb3b;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .om-shanti-container button:hover {
-    background-color: #fdd835;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #ffeb3b, #ffc107);
+  color: #333;
+}
+
+.om-shanti-container h1 {
+  margin-bottom: 20px;
+}
+
+.om-shanti-container input {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.om-shanti-container button {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  background-color: #ffeb3b;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.om-shanti-container button:hover {
+  background-color: #fdd835;
+}
+.input-container {
+  display: flex;
+  overflow: hidden;
+
+}
+
+.input-container select {
+  border: none;
+  background: transparent;
+  font-size: 1em;
+}
+
+.input-container input {
+  flex: 5;
+  border: none;
+}
   
