@@ -6,7 +6,7 @@ import ProfileSetup from './pages/profilesetup/ProfileSetup';
 // import Results from './pages/results/Results';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TestingApp from './pages/TestPage/TestingApp';
-
+import Auth from './pages/admin-panel/admin-authenticate/authenticate';
 function App() {
   return (
     <div className="App">
@@ -30,6 +30,7 @@ function App() {
         <Route path="/verification" element={<VerificationPage />} />
         <Route path="/profileSetup" element={<ProfileSetup />} />
         <Route path="/Test" element={<TestingApp />} />
+        <Route path="/admin" element={<Auth />} />
       </Routes>
     </Router>
       
